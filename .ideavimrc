@@ -1,0 +1,21 @@
+set relativenumber
+set number
+set scrolloff=10
+set surround
+set multiple-cursors
+set easymotion
+set commentary
+set NERDTree
+set clipboard+=unnamed
+set clipboard+=ideaput
+
+vnoremap < <gv
+vnoremap > >gv
+
+map <C-a> :action $SelectAll<CR>
+map <C-p> <Action>(GotoFile)
+map % <Action>(EditorMatchBrace)
+map <C-f> <Action>(ActivateProjectToolWindow)
+map <C-/> <Action>(SplitHorizontally)
+map <C-\> <Action>(SplitVertically)
+map <C-=> <Action>(UnsplitAll)

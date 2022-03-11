@@ -11,9 +11,7 @@ export EDITOR="nvim"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# export TERM=xterm-256color
-ZSH_THEME="gozilla"
-# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
+export TERM=xterm-256color
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
